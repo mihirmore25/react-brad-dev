@@ -1,7 +1,13 @@
-const JobsPage = () => {
-  return (
-    <div>JobsPage</div>
-  )
-}
+import JobListings from "../components/JobListings";
 
-export default JobsPage
+const JobsPage = () => {
+    return (
+        <>
+            <section className="bg-blue-50 px-4 py-6">
+                <JobListings />
+            </section>
+        </>
+    );
+};
+
+export default JobsPage;
